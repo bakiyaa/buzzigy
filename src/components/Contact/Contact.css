@@ -1,0 +1,33 @@
+.contact-section {
+  /* Inherits styles from .content-section */
+  text-align: center; /* Center align contact info */
+}
+
+.contact-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+.contact-details p {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+  font-size: 1.1em;
+}
+
+.contact-details a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-details a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Optional: Styles for icons if used */
+/*
+.contact-details svg {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+*/

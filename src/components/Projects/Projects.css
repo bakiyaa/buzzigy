@@ -1,0 +1,89 @@
+.projects-section {
+  /* Inherits styles from .content-section */
+}
+
+.projects-section h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 1.5rem;
+  /* Adjust grid columns as needed */
+  grid-template-columns: 1fr; /* Default single column */
+}
+
+/* Optional: Make project grid 2 columns on larger screens */
+@media (min-width: 992px) { /* Wider breakpoint for project cards */
+   .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2em;
+}
+
+.project-context {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 0.75rem;
+}
+
+.project-tech {
+  margin-top: 1rem;
+  font-size: 0.9em;
+}
+.project-tech strong {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.project-tech ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-tech li {
+  background-color: #f0f0f0;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.project-link {
+    margin-top: auto; /* Pushes link to the bottom */
+    padding-top: 1rem;
+}
+
+.project-link a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.project-link a:hover {
+    background-color: #0056b3;
+}
