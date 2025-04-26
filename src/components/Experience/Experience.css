@@ -1,0 +1,38 @@
+.experience-section {
+  /* Inherits styles from .content-section */
+}
+
+.experience-section h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.experience-item h3 {
+  margin-bottom: 0.25rem;
+  font-size: 1.2em;
+}
+
+.experience-period {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 0.75rem;
+}
+
+.experience-item ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.experience-item li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}

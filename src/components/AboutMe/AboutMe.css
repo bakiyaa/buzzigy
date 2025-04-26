@@ -1,0 +1,52 @@
+.about-me-section {
+  /* Inherits styles from .content-section in Home.css */
+}
+
+.about-me-section h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.about-me-section h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.25rem;
+}
+.about-me-section h4 {
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+.skills .skill-category {
+  margin-bottom: 1rem;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skills li {
+  background-color: #e7f3ff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.9em;
+  border: 1px solid #cce0ff;
+}
+
+.achievements ul, .professional-development ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    padding-left: 0.5rem;
+}
+.achievements li, .professional-development li {
+    margin-bottom: 0.5rem;
+}
