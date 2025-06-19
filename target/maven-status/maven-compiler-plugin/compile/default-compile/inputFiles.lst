@@ -1,0 +1,8 @@
+/app/src/main/java/com/example/dailytracker/exception/ResourceNotFoundException.java
+/app/src/main/java/com/example/dailytracker/DailyTrackerApplication.java
+/app/src/main/java/com/example/dailytracker/model/Task.java
+/app/src/main/java/com/example/dailytracker/service/TaskServiceImpl.java
+/app/src/main/java/com/example/dailytracker/service/TaskService.java
+/app/src/main/java/com/example/dailytracker/controller/TaskController.java
+/app/src/main/java/com/example/dailytracker/repository/TaskRepository.java
+/app/src/main/java/com/example/dailytracker/exception/GlobalExceptionHandler.java

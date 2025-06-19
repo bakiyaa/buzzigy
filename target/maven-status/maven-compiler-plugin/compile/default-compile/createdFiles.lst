@@ -1,0 +1,8 @@
+com/example/dailytracker/repository/TaskRepository.class
+com/example/dailytracker/exception/GlobalExceptionHandler.class
+com/example/dailytracker/service/TaskServiceImpl.class
+com/example/dailytracker/model/Task.class
+com/example/dailytracker/controller/TaskController.class
+com/example/dailytracker/exception/ResourceNotFoundException.class
+com/example/dailytracker/DailyTrackerApplication.class
+com/example/dailytracker/service/TaskService.class
